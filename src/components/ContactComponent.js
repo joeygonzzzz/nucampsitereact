@@ -65,7 +65,7 @@ class Contact extends Component {
         return errors;
     }
 
-    handleBlue = (field) => () => {
+    handleBlur = (field) => () => {
         this.setState({
             touched: {...this.state.touched, [field]: true}
         });
