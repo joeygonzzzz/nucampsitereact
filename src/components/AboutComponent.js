@@ -3,7 +3,6 @@ import { Breadcrumb, BreadcrumbItem, Card, CardBody, CardHeader, Media } from 'r
 import { Link } from 'react-router-dom';
 import { baseUrl } from '../shared/baseUrl';
 import { Loading } from './LoadingComponent'
-import NavItem from 'reactstrap/lib/NavItem';
 
 function PartnersList(props) {
     const partners = props.partners.partners.map(partner => {
